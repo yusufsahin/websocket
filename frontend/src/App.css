@@ -1,0 +1,75 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+video {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.call-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.call-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.chat-container {
+  margin-top: 20px;
+}
+
+.chat-box {
+  width: 50%;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.chat-message {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-input {
+  margin-top: 10px;
+}
+
+.chat-input input {
+  width: 40%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
